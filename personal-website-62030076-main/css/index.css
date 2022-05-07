@@ -1,0 +1,180 @@
+body{
+    background-color: #faf08f;
+}
+
+header{
+    flex: 1 100%;
+    background-color: #faf08f;
+    padding: 1px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    flex: 1 100%;
+    background-color: #faf08f;
+    margin: 5px 0px;
+    font-size: 1.5em;
+    border: 2px solid #faf08f;
+}
+
+.menu{
+    color: #faf08f;
+    
+}
+
+div{
+    font-size: 1em;
+    margin: 0px 15px;
+}
+
+div:nth-child(2) {
+    margin-left: 30px;
+}
+
+div:nth-child(3) {
+    margin-left: 30px;
+}
+
+#home{
+    background-color: #faf08f;
+    border: 2px solid #faf08f;
+    margin: 5px 0px;
+    height: auto;
+    text-align: center;
+    color: #faf08f;
+}
+
+h2:nth-child(1){
+    font-size: 3em;
+}
+h2:nth-child(2){
+    font-size: 2em;
+}
+h2:nth-child(3){
+    font-size: 2em;
+}
+h2:nth-child(4){
+    font-size: 2em;
+}
+
+#img{
+    image-resolution: "center";
+}
+
+g{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 800px; 
+    font-size: 25px; 
+    color: #000000;
+  margin-left: 5%;
+  margin-top: -1;
+
+}
+
+p1{
+    width: 800px; 
+    font-size: 50px; 
+    color: #000000;
+  margin-left: 5%;
+  margin-top: -1;
+}
+
+span{
+    width: 800px; 
+    font-size: 25px; 
+    color: #50e6d9;
+     margin-left: 5%;
+      margin-top: 0;
+
+  }
+
+#box1{
+    line-height: 60px;
+    background-color: #ffffff;
+    flex: 1 100%;
+    color: whitesmoke;
+
+    margin-top: 5%;
+}
+
+#box2{
+    line-height: 60px;
+    background-color: #ffffff;
+    flex: 1 100%;
+    color: whitesmoke;
+
+    margin-top: 5%;
+}
+
+#box3{
+    line-height: 60px;
+    background-color: #ffffff;
+    flex: 1 100%;
+    color: whitesmoke;
+
+    margin-top: 5%;
+}
+
+footer{
+    line-height: 60px;
+    background-color: #ffffff;
+    flex: 1 100%;
+    color: whitesmoke;
+
+    margin-top: 5%;
+}
+/* เปลี่ยนขนาดตัวอักษรในส่วนเนื้อหาเมื่อขนาดหน้าจอน้อยกว่า 1000 พิกเซล */
+@media screen and (max-width: 1000px){
+    h2:nth-child(1){
+        font-size: 2.5em;
+    }
+    h2:nth-child(2){
+        font-size: 1.5em;
+    }
+    h2:nth-child(3){
+        font-size: 1.5em;
+    }
+    h2:nth-child(4){
+        font-size: 1.5em;
+    } 
+}
+/* เปลี่ยนขนาดตัวอักษรใน Header , Nav และเนื้อหา
+    เมื่อขนาดหน้าจอน้อยกว่า 700 พิกเซล */
+@media screen and (max-width: 700px){
+    header{
+        flex: 1 100%;
+        background-color: #ffffff;
+        padding: 1px;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 1.2em;
+    }
+    nav{
+        display: flex;
+        padding: 10px;
+        flex: 1 100%;
+        background-color: #ffffff;
+        margin: 3px 0px;
+        font-size: 1.2em;
+        border: 2px solid #ffffff;
+    }    
+    h2:nth-child(1){
+        font-size: em;
+    }
+    h2:nth-child(2){
+        font-size: 1em;
+    }
+    h2:nth-child(3){
+        font-size: 1em;
+    }
+    h2:nth-child(4){
+        font-size: 1em;
+    }
+}
